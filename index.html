@@ -7,16 +7,18 @@
        <script src="https://kit.fontawesome.com/fb9286467a.js" crossorigin="anonymous"></script>
     </head> 
    <body>
-        <div class="contenedor">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               
+              <div class="container">
              
                     <a class="navbar-brand" href="https://www.instagram.com">
                         <i class="fa-brands fa-instagram" style="font-size:30px;"></i>
                         <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"  width="110" height="100" class="d-inline-block img-fluid align-top" alt="" loading="lazy">
                       </a>
 
-                        <button type="button" class="btn btn-success mx-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#postmodal">Create a new Post</button>
+                      <div class="navbar-nav">
+
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#postmodal">Create a new Post</button>
                       
                         <div class="modal" tabindex="-1" id="postmodal">
                             <div class="modal-dialog">
@@ -37,7 +39,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="dropdown position-absolute top-5  end-0 translate-middle">
+                          <div class="dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               <i class="fas  fa-cog"></i>
                            </a>
@@ -47,16 +49,18 @@
                                   <a class="dropdown-item" href="#">Something else here</a>
                               </div>
                           </div>
-                 
+                        </div>
+                </div>  
                        
           </nav> 
 
         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+            <button class="nav-link active"  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mosaico</button>
+            
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Card</button>
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Carta</button>
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
@@ -104,20 +108,20 @@
               </div>
             </div>
           </div>
-            <div class="tab-pane fade show active " id="profile-tab-pane" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"></div>
+          <div class="tab-pane fade show active " id="profile-tab-pane" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"></div>
             <div class="position-relative">
-               <div class="card  " style="width: 18rem;">
+               <div class="card my-4 mx-auto" style="width: 18rem;">
                  <img src="https://picsum.photos/id/257/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                      </div>
                 </div>
-              </div>
+             
               
                 <p></p>
                 
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/258/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -126,7 +130,7 @@
                 </div>
               
                 <p></p>
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/259/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -134,7 +138,7 @@
                      </div>
                 </div>
                 <p></p>
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/290/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -142,7 +146,7 @@
                      </div>
                 </div>
                 <p></p>
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/291/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -150,7 +154,7 @@
                      </div>
                 </div>
                 <p></p>
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/292/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -158,7 +162,7 @@
                      </div>
                 </div>
                 <p></p>
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/280/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -166,7 +170,7 @@
                      </div>
                 </div>
                 <p></p>
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/281/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -174,7 +178,7 @@
                      </div>
                 </div>
                 <p></p>
-                <div class="card" style="width: 18rem;">
+                <div class="card my-4 mx-auto" style="width: 18rem;">
                   <img src="https://picsum.photos/id/282/400/300" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h5 class="card-title">Card title</h5>
@@ -183,7 +187,8 @@
                 </div>
                 <p></p>
              </div>
-         
+            </div>
+            </div>
         </div>
        
        
